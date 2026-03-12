@@ -82,3 +82,47 @@ li p{
     font-size:.9rem;
 }
 
+/*Image Styling*/
+
+figure{
+    margin:0;
+}
+
+figure img{
+    width:100%;
+    height:auto;
+}
+
+figcaption{
+    font-size:.8rem;
+    color:#444;
+}
+
+/*Aside(On our Cover)*/
+
+aside:nth-of-type(2){
+    border:2px solid #f0c4a0;
+    padding:15px;
+}
+
+aside:nth-of-type(2) h2{
+    font-size:1.5rem;
+}
+
+aside:nth-of-type(2) ol{
+    padding-left:20px;
+}
+
+aside:nth-of-type(2) li{
+    list-style:decimal;
+}
+
+/*Footer*/
+
+footer{
+    margin-top:40px;
+    text-align:center;
+    font-size:.8rem;
+    color:#555;
+}
+
