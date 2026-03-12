@@ -33,3 +33,52 @@ header p{
     letter-spacing:2px;
 }
 
+/*Main and Section*/
+
+main{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap:30px;
+}
+
+section{
+    margin-bottom:30px;
+}
+
+section h2{
+    font-size:2.3rem;
+    font-weight:300;
+    border-bottom:5px solid #4CAF50;
+    margin-bottom:10px;
+}
+
+section:nth-of-type(2) h2{
+    border-color:#d63a8c;
+}
+
+section:nth-of-type(3) h2{
+    border-color:#2ea6b8;
+}
+
+/*Article Listing*/
+
+ol{
+    padding-left:0;
+}
+
+li{
+    list-style:none;
+    margin-bottom:15px;
+}
+
+li h3{
+    font-size:1rem;
+    text-transform:uppercase;
+    font-weight:bold;
+}
+
+li p{
+    margin:0;
+    font-size:.9rem;
+}
+
