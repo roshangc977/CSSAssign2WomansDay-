@@ -126,3 +126,20 @@ footer{
     color:#555;
 }
 
+/*Responsive Design*/
+
+@media (max-width:768px){
+
+main{
+    grid-template-columns:1fr;
+}
+
+header h1{
+    font-size:3rem;
+}
+
+section h2{
+    font-size:1.8rem;
+}
+
+}
